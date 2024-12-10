@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif; color: darkcyan; size: 100px;
+    text-align: center;
+    background-color: #000000ec;
+    font-size: 40px;
+}
+
+#clocks {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.clock {
+    border: 10px solid #000000;
+    margin: 100px;
+    padding: 200px;
+    width: 200px;
+    box-shadow: 0 0 100px rgb(0, 0, 0);
+    background-color: #000000;
+}
+
+.clock h2 {
+    margin: 0 0 10px 0;
+}
